@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'alysharefa/simple-app'
-        REGISTRY_CREDENTIALS = 'dockerhub-credentials'
+        REGISTRY_CREDENTIALS = 'dockerhub-credentials-lab'
     }
 
     stages {
